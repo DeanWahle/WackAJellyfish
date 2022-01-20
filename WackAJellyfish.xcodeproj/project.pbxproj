@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BF00CCF43A2C4B87B8D0416 /* Pods_WackAJellyfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDB7EC2F33465E33CAEB704 /* Pods_WackAJellyfish.framework */; };
+		DF3ECD159C11B4724FC0E138 /* Pods_WackAJellyfish_WackAJellyfishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D40AD9804B2F53858C5B33 /* Pods_WackAJellyfish_WackAJellyfishUITests.framework */; };
+		F6E6C42445E5D4F99C872867 /* Pods_WackAJellyfishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A09E9A641419957F27B83 /* Pods_WackAJellyfishTests.framework */; };
 		F92411002797256300DA685F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92410FF2797256300DA685F /* AppDelegate.swift */; };
 		F92411022797256300DA685F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92411012797256300DA685F /* SceneDelegate.swift */; };
 		F92411042797256300DA685F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92411032797256300DA685F /* ViewController.swift */; };
@@ -16,6 +19,8 @@
 		F92411172797256600DA685F /* WackAJellyfishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92411162797256600DA685F /* WackAJellyfishTests.swift */; };
 		F92411212797256600DA685F /* WackAJellyfishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92411202797256600DA685F /* WackAJellyfishUITests.swift */; };
 		F92411232797256600DA685F /* WackAJellyfishUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92411222797256600DA685F /* WackAJellyfishUITestsLaunchTests.swift */; };
+		F924113F27972FDD00DA685F /* Jellyfish.dae in Resources */ = {isa = PBXBuildFile; fileRef = F924113E27972FDD00DA685F /* Jellyfish.dae */; };
+		F92411432797307F00DA685F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F92411422797307F00DA685F /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009D27E73FC48405D9B9EA86 /* Pods-WackAJellyfish-WackAJellyfishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WackAJellyfish-WackAJellyfishUITests.release.xcconfig"; path = "Target Support Files/Pods-WackAJellyfish-WackAJellyfishUITests/Pods-WackAJellyfish-WackAJellyfishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0BDB7EC2F33465E33CAEB704 /* Pods_WackAJellyfish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WackAJellyfish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1F9C359A20C0A1299A57F0 /* Pods-WackAJellyfish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WackAJellyfish.debug.xcconfig"; path = "Target Support Files/Pods-WackAJellyfish/Pods-WackAJellyfish.debug.xcconfig"; sourceTree = "<group>"; };
+		1F892D058E4B34B67CAC1051 /* Pods-WackAJellyfish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WackAJellyfish.release.xcconfig"; path = "Target Support Files/Pods-WackAJellyfish/Pods-WackAJellyfish.release.xcconfig"; sourceTree = "<group>"; };
+		241AD0AD12EB7FC44A275F1B /* Pods-WackAJellyfishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WackAJellyfishTests.release.xcconfig"; path = "Target Support Files/Pods-WackAJellyfishTests/Pods-WackAJellyfishTests.release.xcconfig"; sourceTree = "<group>"; };
+		679A09E9A641419957F27B83 /* Pods_WackAJellyfishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WackAJellyfishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D40AD9804B2F53858C5B33 /* Pods_WackAJellyfish_WackAJellyfishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WackAJellyfish_WackAJellyfishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADBD9E5711B0489353E05BF /* Pods-WackAJellyfishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WackAJellyfishTests.debug.xcconfig"; path = "Target Support Files/Pods-WackAJellyfishTests/Pods-WackAJellyfishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5007F1C2F15424554D1D9E9 /* Pods-WackAJellyfish-WackAJellyfishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WackAJellyfish-WackAJellyfishUITests.debug.xcconfig"; path = "Target Support Files/Pods-WackAJellyfish-WackAJellyfishUITests/Pods-WackAJellyfish-WackAJellyfishUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F92410FC2797256300DA685F /* WackAJellyfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WackAJellyfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92410FF2797256300DA685F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F92411012797256300DA685F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		F924111C2797256600DA685F /* WackAJellyfishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WackAJellyfishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92411202797256600DA685F /* WackAJellyfishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WackAJellyfishUITests.swift; sourceTree = "<group>"; };
 		F92411222797256600DA685F /* WackAJellyfishUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WackAJellyfishUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F924113E27972FDD00DA685F /* Jellyfish.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = Jellyfish.dae; path = ../../../Downloads/Jellyfish.dae; sourceTree = "<group>"; };
+		F92411422797307F00DA685F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF00CCF43A2C4B87B8D0416 /* Pods_WackAJellyfish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E6C42445E5D4F99C872867 /* Pods_WackAJellyfishTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3ECD159C11B4724FC0E138 /* Pods_WackAJellyfish_WackAJellyfishUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DAE7078BE4D55D77851D629 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BDB7EC2F33465E33CAEB704 /* Pods_WackAJellyfish.framework */,
+				86D40AD9804B2F53858C5B33 /* Pods_WackAJellyfish_WackAJellyfishUITests.framework */,
+				679A09E9A641419957F27B83 /* Pods_WackAJellyfishTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8AF4B254A5758915DA6242B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C1F9C359A20C0A1299A57F0 /* Pods-WackAJellyfish.debug.xcconfig */,
+				1F892D058E4B34B67CAC1051 /* Pods-WackAJellyfish.release.xcconfig */,
+				F5007F1C2F15424554D1D9E9 /* Pods-WackAJellyfish-WackAJellyfishUITests.debug.xcconfig */,
+				009D27E73FC48405D9B9EA86 /* Pods-WackAJellyfish-WackAJellyfishUITests.release.xcconfig */,
+				9ADBD9E5711B0489353E05BF /* Pods-WackAJellyfishTests.debug.xcconfig */,
+				241AD0AD12EB7FC44A275F1B /* Pods-WackAJellyfishTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F92410F32797256200DA685F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				F92411152797256600DA685F /* WackAJellyfishTests */,
 				F924111F2797256600DA685F /* WackAJellyfishUITests */,
 				F92410FD2797256300DA685F /* Products */,
+				F8AF4B254A5758915DA6242B /* Pods */,
+				2DAE7078BE4D55D77851D629 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +150,9 @@
 				F92411052797256300DA685F /* Main.storyboard */,
 				F92411082797256500DA685F /* Assets.xcassets */,
 				F924110A2797256500DA685F /* LaunchScreen.storyboard */,
+				F924113E27972FDD00DA685F /* Jellyfish.dae */,
 				F924110D2797256500DA685F /* Info.plist */,
+				F92411422797307F00DA685F /* art.scnassets */,
 			);
 			path = WackAJellyfish;
 			sourceTree = "<group>";
@@ -134,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F92411262797256600DA685F /* Build configuration list for PBXNativeTarget "WackAJellyfish" */;
 			buildPhases = (
+				3AB4CC2F82270F6AA200D1B5 /* [CP] Check Pods Manifest.lock */,
 				F92410F82797256200DA685F /* Sources */,
 				F92410F92797256200DA685F /* Frameworks */,
 				F92410FA2797256200DA685F /* Resources */,
+				3229A1B19ED280D8A6567FBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F92411292797256600DA685F /* Build configuration list for PBXNativeTarget "WackAJellyfishTests" */;
 			buildPhases = (
+				BD046CB7A2D0DC40BF47A805 /* [CP] Check Pods Manifest.lock */,
 				F924110E2797256600DA685F /* Sources */,
 				F924110F2797256600DA685F /* Frameworks */,
 				F92411102797256600DA685F /* Resources */,
@@ -169,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F924112C2797256600DA685F /* Build configuration list for PBXNativeTarget "WackAJellyfishUITests" */;
 			buildPhases = (
+				D57A51729E43190E8E27BD92 /* [CP] Check Pods Manifest.lock */,
 				F92411182797256600DA685F /* Sources */,
 				F92411192797256600DA685F /* Frameworks */,
 				F924111A2797256600DA685F /* Resources */,
+				E61BB79FFB8B8D1F26661251 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +286,8 @@
 				F924110C2797256500DA685F /* LaunchScreen.storyboard in Resources */,
 				F92411092797256500DA685F /* Assets.xcassets in Resources */,
 				F92411072797256300DA685F /* Main.storyboard in Resources */,
+				F924113F27972FDD00DA685F /* Jellyfish.dae in Resources */,
+				F92411432797307F00DA685F /* art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3229A1B19ED280D8A6567FBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WackAJellyfish/Pods-WackAJellyfish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WackAJellyfish/Pods-WackAJellyfish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WackAJellyfish/Pods-WackAJellyfish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB4CC2F82270F6AA200D1B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WackAJellyfish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD046CB7A2D0DC40BF47A805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WackAJellyfishTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57A51729E43190E8E27BD92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WackAJellyfish-WackAJellyfishUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E61BB79FFB8B8D1F26661251 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WackAJellyfish-WackAJellyfishUITests/Pods-WackAJellyfish-WackAJellyfishUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WackAJellyfish-WackAJellyfishUITests/Pods-WackAJellyfish-WackAJellyfishUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WackAJellyfish-WackAJellyfishUITests/Pods-WackAJellyfish-WackAJellyfishUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F92410F82797256200DA685F /* Sources */ = {
@@ -434,6 +591,7 @@
 		};
 		F92411272797256600DA685F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1F9C359A20C0A1299A57F0 /* Pods-WackAJellyfish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +620,7 @@
 		};
 		F92411282797256600DA685F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F892D058E4B34B67CAC1051 /* Pods-WackAJellyfish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +649,7 @@
 		};
 		F924112A2797256600DA685F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADBD9E5711B0489353E05BF /* Pods-WackAJellyfishTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +675,7 @@
 		};
 		F924112B2797256600DA685F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241AD0AD12EB7FC44A275F1B /* Pods-WackAJellyfishTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +701,7 @@
 		};
 		F924112D2797256600DA685F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5007F1C2F15424554D1D9E9 /* Pods-WackAJellyfish-WackAJellyfishUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +725,7 @@
 		};
 		F924112E2797256600DA685F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009D27E73FC48405D9B9EA86 /* Pods-WackAJellyfish-WackAJellyfishUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
